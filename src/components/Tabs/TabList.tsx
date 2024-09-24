@@ -21,9 +21,10 @@ const TabList = ({ tabs, variant }: TabListProps) => {
   return (
 
     <div className={`tabs`}>
-      <ul role="tablist" aria-label="Sample Tabs" className="tab-list">
+      <ul role="tablist" aria-label={`Tablist-${variant}`} className="tab-list">
         {tabs.map(tab => (
-            <Tab key={tab.id}
+            <Tab 
+              key={tab.id}
               tab={tab}
               onClick={() => handleTabClick(tab.id)}
               selected={activeTab === tab.id ? true : false}
