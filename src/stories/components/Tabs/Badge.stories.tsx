@@ -29,6 +29,6 @@ export const Negative: StoryObj<typeof Badge> = {
 export const Neutral: StoryObj<typeof Badge> = {
   args: {
       label: negativeBadge.label,
-      variant: BadgeVariant.Negative,
+      variant: BadgeVariant.Neutral,
   },
 };
