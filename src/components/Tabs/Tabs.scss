@@ -84,6 +84,9 @@ $border-bottom-width: 3px;
       }
     }
   }
+  @media (max-width: $mobile-viewport) {
+    gap: $xxs;
+  }
 }
 
 // Individual Tab
