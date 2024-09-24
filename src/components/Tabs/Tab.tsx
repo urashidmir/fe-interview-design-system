@@ -16,7 +16,7 @@ const Tab = ({ tab, selected, variant, onClick } : TabProps) => {
       id={`tab-${tab.id}`}
       aria-selected={selected}
       aria-controls={`panel-${tab.id}`}
-      tabIndex={0}
+      tabIndex={selected ? 0 : -1}
       className={`tab ${variant} ${selected ? 'selected' : ''}`}
       onClick={onClick}
     >
