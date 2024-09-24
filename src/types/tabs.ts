@@ -13,7 +13,7 @@ export type BadgeItem = {
 export type TabItem = {
     id: number;
     label: string;
-    icon? : boolean;
+    icon? : string;
     badge? : BadgeItem | null;
     timer? : boolean;
 };
