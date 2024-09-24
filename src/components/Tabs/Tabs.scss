@@ -61,8 +61,7 @@ $border-bottom-width: 3px;
     }
 
     &:focus {
-      outline: 2px solid $focus-color;
-      outline-offset: 2px;
+      border: 2px solid $focus-color;
     }
   }
 
@@ -80,8 +79,7 @@ $border-bottom-width: 3px;
     }
 
     &:focus {
-      outline: 2px solid $focus-color;
-      outline-offset: 2px;
+      border: 2px solid $focus-color;
     }
   }
 
