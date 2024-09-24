@@ -1,0 +1,34 @@
+// Define spacing variables
+$xxxs: 2px;
+$xxxs: 4x;
+$xxs: 8px;
+$xs: 12px;  
+$s: 16px; 
+$m: 20px; 
+$l: 24px; 
+$xl: 32px; 
+$xxl: 48px; 
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+$font-family: 'Inter', sans-serif;
+$font-size: 16px;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$inactive-color: #666666;
+$active-color: #000000;
+$letter-spacing: 0.5px;
+$line-height: 24px;
+
+
+$primary-color: #000000;  
+$secondary-color: #ffffff; 
+$hover-color: #333333;     
+$focus-color: #007bff;  
+
+$positive-color: #B1FFC7;
+$negative-color: #FFBFB1;
+$neutral-color: #F1F1F7;
