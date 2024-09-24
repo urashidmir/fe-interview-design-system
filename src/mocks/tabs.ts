@@ -18,7 +18,7 @@ export const neutralBadge = {
 export const emailTab = {
   id: 1,
   label: 'Emails',
-  icon : false,
+  icon : '',
   badge : negativeBadge,
   timer : false,
 };
@@ -26,7 +26,7 @@ export const emailTab = {
 export const filesTab = {
   id: 2,
   label: 'Files',
-  icon : false,
+  icon : '',
   badge : null,
   timer : false,
 };
@@ -34,7 +34,7 @@ export const filesTab = {
 export const editsTab = {
   id: 3,
   label: 'Edits',
-  icon : false,
+  icon : '',
   badge : positiveBadge,
   timer : false,
 }
@@ -42,7 +42,7 @@ export const editsTab = {
 export const messageTab = {
   id: 5,
   label: 'Message',
-  icon : false,
+  icon : '',
   badge : neutralBadge,
   timer : false,
 }

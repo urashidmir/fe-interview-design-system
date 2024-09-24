@@ -19,6 +19,7 @@ const Tab = ({ tab, selected, variant, onClick } : TabProps) => {
       tabIndex={selected ? 0 : -1}
       className={`tab ${variant} ${selected ? 'selected' : ''}`}
       onClick={onClick}
+      data-tab-id={tab.id}
     >
       <span className="tab-label">{tab.label}</span>
       {tab.badge && <Badge {...tab.badge} />} 
