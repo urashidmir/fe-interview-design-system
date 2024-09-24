@@ -8,9 +8,9 @@ const App = () => {
 
   return (
     <div>
-      <h2>Pill Variant (Desktop)</h2>
+      <h2>Tablist Pill Variant</h2>
       <TabList tabs={ [...getMockTabs]  } variant={TabVariant.Pill} />
-      <h2>Underline Variant (Desktop)</h2>
+      <h2>Tablist Underline Variant</h2>
       <TabList tabs={ [...getMockTabs]  } variant={TabVariant.Underline} />     
     </div>
   );
